@@ -1,0 +1,5 @@
+<search-user [user]="user" (onSub)="searchUserRoot($event)"></search-user>
+<div *ngIf = "user">
+ <user [user]="user"></user>
+ <repo [repo]="repo"></repo>
+</div>
